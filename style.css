@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+   width: 80%;
+}
+
+header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+header nav {
+    padding: 8px 0;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid white;
+    width: 100%;
+}
+
+header nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 20px;
+    box-shadow: inset 8px;
+}
+
+.text-1 {
+    float: left;
+    font-weight: bold;
+    padding-left: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-2 {
+    float: left;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+.img-1 {
+    background-image: url(assets/images/architect.jpg);
+    text-align: center;
+    height: 530px;
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;   
+}
+
+.br {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    /* border: 1px solid white ; */
+    opacity: 60%;
+    background-color: black;
+    color: white;
+    top: 100px;
+    margin-top: 200px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Architect {
+    padding-left: 10px;
+    padding-bottom: 50px;
+    padding-top: -200px;
+    display: inline-block;
+}
+
+.project {
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+}
+
+.img-2 {
+    background-image: url(assets/images/house2.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat; 
+   background-size: 100%;
+}
+.img-3 {
+    background-image: url(assets/images/house3.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat; 
+   background-size: 100%;
+   margin-left: 10px;
+}
+.img-4 {
+    background-image: url(assets/images/house4.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+   margin-left: 10px;
+
+}
+.img-5 {
+    background-image: url(assets/images/house5.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+   margin-left: 10px;
+
+}
+.img-6 {
+    background-image: url(assets/images/house4.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+   margin-left: 10px;
+
+}
+.img-7 {
+    background-image: url(assets/images/house2.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat; 
+   background-size: 100%;
+   margin-left: 10px;
+
+}
+.img-8 {
+    background-image: url(assets/images/house3.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+   margin-left: 10px;
+
+}
+.img-9 {
+    background-image: url(assets/images/house5.jpg);
+    width: 30%;
+    height: 200px;
+    background-repeat: no-repeat;
+   background-size: 100%;
+   margin-left: 10px;
+
+}
+.Renovated {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding: 4px;
+    margin-right: 170px;
+    
+}
+.Summer {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding: 4px;
+    margin-right: 140px;
+    
+}
+.Brick {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding: 4px;
+    margin-right: 165px;
+    
+}
+.Barn {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding: 4px;
+    margin-right: 165px;
+    
+}
+
+.all-images {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.About {
+    border: 1px solid white;
+    padding: 5px 0;
+    box-shadow: 1px 1px 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+} 
+
+.person-1 {
+    background-image: url(assets/images/team2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 260px;
+    height: 200px;
+}
+.person-2 {
+    background-image: url(assets/images/team1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 260px;
+    height: 200px;
+    margin-left: 10px;
+
+}
+.person-3 {
+    background-image: url(assets/images/team3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 260px;
+    height: 200px;
+    margin-left: 10px;
+
+}
+.person-4 {
+    background-image: url(assets/images/team4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 260px;
+    height: 210px;
+    margin-left: 10px;
+
+}
+
+.CEO {
+    color: gray;
+}
+
+.word {
+    color: gray;
+}
+
+.all-images-2 {
+    display: flex;
+    font-family: 'Gill Sans', ;
+}
+
+.data {
+    display: flex;
+}
+
+/* .second {
+  display: block;
+} */
+
+.team1 {
+    margin-top: -20px;
+}
+
+.team2 {
+    margin-left: 4%;
+    margin-top: -20px;
+}
+.team3 {
+    margin-left: 4%;
+    margin-top: -20px;
+
+}
+.team4 {
+    margin-left: 4%;
+    margin-top: -20px;
+
+}
+
+.btn-1 {
+    
+    border: 1px solid red;
+     background-color: rgb(202, 201, 201); /* Green */
+     border: none;
+     color: black;
+     padding: 10px 100px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-family: sans-serif;
+        font-size: 14px;
+}
+.btn-2 {
+    
+    border: 1px solid red;
+     margin-left: 2%;
+
+     background-color: rgb(202, 201, 201); /* Green */
+     border: none;
+     color: black;
+     padding: 10px 100px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-family: sans-serif;
+        font-size: 14px;
+}
+.btn-3 {
+    border: 1px solid red;
+    margin-left: 2%;
+
+    background-color: rgb(202, 201, 201); /* Green */
+    border: none;
+    color: black;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: sans-serif;
+        font-size: 14px;
+
+}
+.btn-4 {
+    /* padding: 4px 20px; */
+    /* border: 1px solid red; */
+     /* text-decoration: none;
+     text-underline-offset: none; */
+     margin-left: 2%;
+    
+        background-color: rgb(202, 201, 201); /* Green */
+        border: none;
+        color: black;
+        padding: 10px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 14px;
+        
+}
+
+.Contact {
+    box-shadow: 1px 1px 1px;
+}
+
+.last-img {
+    background-image: url(assets/images/map.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+footer {
+    text-align: center;
+    padding: 16px 0;
+    background-color: black;
+    color: white;
+    margin-top: -85px;
+}
+
+  #boxs {
+   padding: 8px 0;
+   padding-left: 3px;
+}
+
+/* button code start from here */
+.button-50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-50 {
+      padding: 12px 50px;
+    }
+  }
+
+  /* button code ended here */
+
+
+
+  /* medium screen | 768px - 991px */
+@media screen and (max-width:991px) {
+    .container {
+     width: 80%;
+    }
+
+     body {
+     background-color: white;
+    } 
+}
+ 
+/* small screen | 576px - 767px */
+@media screen and (max-width:767px) {
+    .container {
+     width: 90%;
+    }
+     body { 
+     background-color: white;
+    }
+    
+    
+     .text-center {
+              color: white;
+              
+     }
+    
+    .row>.col {
+     width: 50%;
+     margin-bottom: 8px;
+    }
+
+    .row>.col:last-child {
+     margin-bottom: 0;
+    }
+}
+
+
+/* extra small screen | 0 - 575px */
+@media screen and (max-width:575px) {
+    .container {
+     width: 100%;
+    }
+     body {
+     background-color: white;
+    } 
+
+    .row>.col {
+     width: 100%;
+     margin-bottom: 8px;
+    }
+
+    .row>.col:last-child {
+     margin-bottom: 0;
+    }
+
+    .text-center {
+     color: black;
+    }
+    .br {
+        margin-top: 18%;
+    }
+
+    .project {
+        margin-bottom: 100%;
+        margin-top: -60%;
+    }
+    .all-images {
+        margin-top: -73%;
+        width: 73%;
+    }
+
+    .btn-1,
+    .btn-2,
+    .btn-3,
+    .btn-4 {
+        padding: 8px 30px;
+    }
+
+    #boxs {
+        width: 89%;
+    }
+
+    footer {
+        margin-top:  -80%;        
+    }
+}
